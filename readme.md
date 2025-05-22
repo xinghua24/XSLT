@@ -35,14 +35,14 @@ public class XsltApplication {
 
     public static void main(String[] args) {
         XsltApplication application = new XsltApplication();
-        application.transformUsingXslt("input.xml", "transform.xslt");
+        application.transformUsingXslt("sample-input.xml", "transform.xslt");
     }
 }
 ```
 
-Example [input.xml file](input.xml) and [transform.xslt file](transform.xslt) are from https://www.w3schools.com/xml/xsl_examples.asp
+Example [sample-input.xml file](input.xml) and [transform.xslt file](transform.xslt) are from https://www.w3schools.com/xml/xsl_examples.asp
 
-transform.xslt transforms the file and output HTML file that contains CDs that are over $10. Example output see [output.xml](output.xml)
+transform.xslt transforms the file and output HTML file that contains CDs that are over $10.
 ```xml
                     <xsl:for-each select="catalog/cd">
                         <xsl:if test="price>10">

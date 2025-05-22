@@ -30,6 +30,6 @@ public class XsltApplication {
 
     public static void main(String[] args) {
         XsltApplication application = new XsltApplication();
-        application.transformUsingXslt("input.xml", "transform.xslt");
+        application.transformUsingXslt("sample-input.xml", "transform.xslt");
     }
 }
