@@ -30,6 +30,9 @@ public class XsltApplication {
 
     public static void main(String[] args) {
         XsltApplication application = new XsltApplication();
-        application.transformUsingXslt("sample-input.xml", "transform.xslt");
+        // application.transformUsingXslt("sample-input.xml", "transform.xslt");
+
+        // xsl:key demo
+        application.transformUsingXslt("demo-xsl-key/lookup.xml", "demo-xsl-key/xsl-key.xslt");
     }
 }

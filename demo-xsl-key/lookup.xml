@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LookupFile>
+    <countryLookupTable>
+        <countryEntry>
+            <countryCd>US</countryCd>
+            <countryName>United States of America</countryName>
+        </countryEntry>
+        <countryEntry>
+            <countryCd>UK</countryCd>
+            <countryName>United Kingdom</countryName>
+        </countryEntry>
+    </countryLookupTable>
+</LookupFile>

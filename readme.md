@@ -57,6 +57,7 @@ transform.xslt transforms the file and output HTML file that contains CDs that a
 
 # For more on XSLT
 * XPath Examples: https://www.w3schools.com/xml/xpath_examples.asp
+* XPath Syntax Reference: https://www.saxonica.com/html/documentation12/expressions/index.html
 * XSLT tutorial: https://www.w3schools.com/xml/xsl_intro.asp
 * XSLT Elements Reference: https://www.saxonica.com/html/documentation12/xsl-elements/index.html
 * XSLT Functions Reference: https://www.saxonica.com/html/documentation12/functions/index.html
